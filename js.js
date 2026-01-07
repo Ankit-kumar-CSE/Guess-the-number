@@ -4,10 +4,8 @@ function start(){
     const ans=document.getElementById("ans"); 
     ans.textContent="";
     if (input_number===guess_number){
-        // textContent="Your guess is correct";
         ans.textContent='🎉 Your guess is Correct'
     }else{
-        // textContent="Your guess is wrong";
         ans.textContent='❌ Your guess is Wrong!'
     }
 }
